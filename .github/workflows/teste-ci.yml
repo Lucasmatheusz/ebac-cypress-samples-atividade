@@ -27,7 +27,7 @@ jobs:
     - name: GerarRelatorio Allure
       run: npm run report:generate
    
-    - name: Publicar relatirio no GH Pages
+    - name: Publicar relatorio no GH Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
        github_token: ${{ secrets.GITHUB_TOKEN }}
