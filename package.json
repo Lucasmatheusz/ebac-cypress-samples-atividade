@@ -4,14 +4,15 @@
   "description": "Default Cypress Tests",
   "main": "index.js",
   "scripts": {
-  "test": "npx cypress run --browser electron",
-  "report": "npx allure open allure-results",
-  "report:generate": "npx allure generate allure-results --output allure-report"
+    "test": "npx cypress run --browser electron",
+    "report": "npx allure open allure-results",
+    "report:generate": "npx allure generate allure-results --output allure-report"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "allure-commandline": "^2.46.1",
     "cypress": "^15.1.0"
   },
   "devDependencies": {
